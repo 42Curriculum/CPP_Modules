@@ -15,7 +15,7 @@ NAME= array
 all : $(NAME)
 
 $(NAME) :
-	clang++ -Wall -Wextra -Werror array.cpp -o $(NAME)
+	clang++ -Wall -Wextra -Werror *.cpp -o $(NAME)
 
 fclean :
 	rm -f $(NAME)
