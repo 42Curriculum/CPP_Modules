@@ -19,7 +19,6 @@ template <typename T>
 class MutantStack : public std::stack<T>
 {
 private:
-
 	std::vector<T>	vec;
 public:
 	typedef typename std::vector<T>::iterator iterator;

@@ -65,3 +65,4 @@ Span &Span::operator=(Span const &copy)
 const char* Span::FullException::what() const throw(){return "Span is full";}
 
 const char* Span::NotEnoughValues::what() const throw(){return "Span must contain 2 or more values";}
+

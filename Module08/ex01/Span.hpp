@@ -34,6 +34,7 @@ public:
 	virtual ~Span(){}
 
 	class FullException: public std::exception {virtual const char* what() const throw();};
+	
 	class NotEnoughValues: public std::exception {virtual const char* what() const throw();};
 
 	size_t shortestSpan() const;

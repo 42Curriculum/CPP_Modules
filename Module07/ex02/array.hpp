@@ -38,5 +38,4 @@ public:
 	size_t size(void) const;
 };
 # include "array.ipp"
-
 #endif
